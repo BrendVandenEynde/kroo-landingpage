@@ -1,0 +1,120 @@
+:root {
+    /* green */
+    --green-10: #D6F8B3;
+    --green-20: #C2F48C;
+    --green-30: #ADF166;
+    --green: #99ED40;
+    --green-50: #73B230;
+    --green-60: #4D7720;
+    --green-70: #263B10;
+
+    /* blurple */
+    --blurple-10: #C6B3F8;
+    --blurple-20: #AA8CF4;
+    --blurple-30: #8D66F1;
+    --blurple: #7140ED;
+    --blurple-50: #5530B2;
+    --blurple-60: #392077;
+    --blurple-70: #1C103B;
+
+    /* neutral */
+    --white: #F5F5F5;
+    --neutral-20: #EBEBEB;
+    --neutral-30: #BCBCBC;
+    --neutral-40: #A1A1A1;
+    --neutral-50: #858585;
+    --neutral-60: #6A6A6A;
+    --neutral-70: #4E4E4E;
+    --neutral-80: #333333;
+    --neutral-90: #1D1D1D;
+    --black: #0E0F0F;
+    --gray: #EBEBEB;
+
+    /* semantics */
+
+    --warning: #F24646;
+    --notice: #F2903A;
+    --positive: #99ED40;
+    --info: #41B1F2;
+  
+  }
+
+  /* body */
+
+  body {
+    background-color: var(--white);
+  }
+
+  /* text */
+
+.text-primary {
+  color: var(--black);
+}
+
+.text-secondary {
+  color: var(--neutral-80);
+}
+
+.text-tertiary {
+  color: var(--blurple-70);
+}
+
+.text-disabled {
+  color: var(--neutral-30);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-white-secondary {
+  color: var(--neutral-20);
+}
+
+
+/* surface */
+.surface-primary {
+  background-color: var(--white);
+}
+
+.surface-secondary {
+  background-color: var(--black);
+}
+
+.surface-tertiary {
+  background-color: var(--gray);
+}
+
+/* ICONS */
+.icon-black {
+  color: var(--black);
+}
+
+.icon-white {
+  color: var(--white);
+}
+
+.icon-active {
+  color: var(--blurple);
+}
+
+.icon-disabled {
+  color: var(--neutral-30);
+}
+
+/* SEMANTIC */
+.warning {
+  color: var(--warning);
+}
+
+.notice {
+  color: var(--notice);
+}
+
+.positive {
+  color: var(--positive);
+}
+
+.info {
+  color: var(--info);
+}

@@ -1,0 +1,58 @@
+.radius-min {
+    border-radius: 1px;
+}
+
+.radius-xxs {
+    border-radius: 2px;
+}
+
+.radius-xs {
+    border-radius: 4px;
+}
+
+.radius-s {
+    border-radius: 8px;
+}
+
+.radius-m {
+    border-radius: 16px;
+}
+
+.radius-l {
+    border-radius: 24px;
+}
+
+.radius-xl {
+    border-radius: 48px;
+}
+
+.radius-full {
+    border-radius: 9999px;
+}
+
+.border {
+    border: 2px solid var(--blurple);
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar-track {
+    background-color: var(--neutral-20);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--black);
+}
+
+/* FIREFOX */
+* {
+    scrollbar-color: var(--black) var(--neutral-80);
+    scrollbar-width: thin;
+}
+
+*:hover {
+    scrollbar-color: var(--neutral-70) var(--neutral-20);
+}
+
+* {
+    scrollbar-track-color: var(--neutral-80);
+}

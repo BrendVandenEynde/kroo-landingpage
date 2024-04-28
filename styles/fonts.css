@@ -1,0 +1,109 @@
+:root {
+    --font-header: 'header';
+    --font-body: 'body';
+    --font-bold: 'bold';
+    --font-button: 'button'
+
+  }
+
+  @font-face {
+    font-family: 'header';
+    src: url('../assets/fonts/CodecPro-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'body';
+    src: url('../assets/fonts/Orkney-Light.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'bold';
+    src: url('../assets/fonts/Orkney-Bold.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'button';
+    src: url('../assets/fonts/Orkney-Medium.otf') format('opentype');
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-header);
+    line-height: 100%;
+    font-weight: 100;
+  }
+
+  h1 {
+    font-size: 64px;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 48px;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  h4 {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  h5 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  h6 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  p, a, button, label, input, textarea, span {
+    font-family: var(--font-body);
+    line-height: 140%;
+  }
+
+  .text-bold-xl, .text-bold-l, .text-bold-normal, .text-bold-s, .text-bold-xs, .text-bold-xxs {
+    font-family: var(--font-bold);
+    line-height: 140%;
+  }
+
+  .button-xl, .button-l, .button-normal, .button-s, .button-xs, .button-xxs {
+    font-family: var(--font-button);
+    line-height: 100%;
+  }
+
+  .text-reg-xl, .text-reg-l, .text-reg-normal, .text-reg-s, .text-reg-xs, .text-reg-xxs {
+    font-family: var(--font-body);
+    line-height: 140%;
+  }
+
+  .text-reg-xl, .text-bold-xl, .button-xl {
+    font-size: 24px;
+  }
+
+  .text-reg-l, .text-bold-l, .button-l {
+    font-size: 20px;
+  }
+
+  .text-reg-normal, .text-bold-normal, .button-normal {
+    font-size: 16px;
+  }
+
+  .text-reg-s, .text-bold-s, .button-s {
+    font-size: 14px;
+  }
+
+  .text-reg-xs, .text-bold-xs, .button-xs {
+    font-size: 12px;
+  }
+
+  .text-reg-xxs, .text-bold-xxs, .button-xxs {
+    font-size: 10px;
+  }
+
+
