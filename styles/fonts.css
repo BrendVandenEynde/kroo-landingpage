@@ -70,6 +70,7 @@
   .text-bold-xl, .text-bold-l, .text-bold-normal, .text-bold-s, .text-bold-xs, .text-bold-xxs {
     font-family: var(--font-bold);
     line-height: 140%;
+    margin: 0;
   }
 
   .button-xl, .button-l, .button-normal, .button-s, .button-xs, .button-xxs {
@@ -81,6 +82,7 @@
   .text-reg-xl, .text-reg-l, .text-reg-normal, .text-reg-s, .text-reg-xs, .text-reg-xxs {
     font-family: var(--font-body);
     line-height: 140%;
+    margin: 0;
   }
 
   .text-reg-xl, .text-bold-xl, .button-xl {
