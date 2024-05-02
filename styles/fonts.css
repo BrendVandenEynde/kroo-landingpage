@@ -2,7 +2,8 @@
     --font-header: 'header';
     --font-body: 'body';
     --font-bold: 'bold';
-    --font-button: 'button'
+    --font-button: 'button';
+    --font-kroo: 'kroo';
 
   }
 
@@ -24,6 +25,12 @@
   @font-face {
     font-family: 'button';
     src: url('../assets/fonts/Orkney-Medium.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'kroo';
+    src: url('../assets/fonts/BricolageGrotesque[opsz\,wdth\,wght].ttf') format('truetype');
+    font-weight: 800;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -107,6 +114,12 @@
 
   .text-reg-xxs, .text-bold-xxs, .button-xxs {
     font-size: 10px;
+  }
+
+  .kroo {
+    font-family: var(--font-kroo);
+    line-height: 140%;
+    margin: 0;
   }
 
 
