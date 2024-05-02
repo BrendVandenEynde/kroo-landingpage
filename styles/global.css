@@ -171,6 +171,22 @@ section {
     align-items: center;
 }
 
+/* pricing */
+
+.pricing_content_wrapper {
+    display: flex;
+}
+
+.pricing_content_wrapper span {
+    font-size: 64px;
+    color: var(--black);
+}
+
+.pricing_content_tier {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* button */
 
