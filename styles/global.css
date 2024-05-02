@@ -57,6 +57,12 @@
     scrollbar-track-color: var(--neutral-80);
 }
 
+/* main */
+
+main {
+    padding: 48px 300px 64px 300px;
+}
+
 /* how */
 
 .how {
