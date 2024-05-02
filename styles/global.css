@@ -111,3 +111,12 @@
     height: 1px;
     background-color: var(--white);
 }
+
+.iconoir-calendar::before,
+.iconoir-search::before,
+.iconoir-tools::before,
+.iconoir-eye::before,
+.iconoir-timer::before {
+    font-size: 64px;
+    color: var(--blurple);
+}
