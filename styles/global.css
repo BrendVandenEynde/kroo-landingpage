@@ -72,4 +72,41 @@
 
 .footer {
     background-color: var(--black);
+    color: var(--white);
+    padding: 48px 300px 64px 300px;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_nav_contents {
+    display: flex;
+    gap: 64px;
+}
+
+.footer_nav_contents a {
+    color: var(--white)
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info_location, .footer_info_contact {
+    display: flex;
+    gap: 24px;
+}
+
+.footer_info_contact a {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.line {
+    border: 0.5px solid var(--white);
+    width: 100%;
+    margin: 24px 0px 24px 0px;
 }
