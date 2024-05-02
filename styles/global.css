@@ -69,6 +69,37 @@ section {
     margin-top: 176px;
 }
 
+/* hero */
+
+.hero_content {
+    display: flex;
+    gap: 88px;
+    align-items: center;
+}
+
+.hero_content_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.hero_content_title {
+    width: 672px;
+}
+
+.hero_content_text {
+    width: 584px;
+}
+
+.hero_content_buttons {
+    display: flex;
+    gap: 32px;
+}
+
+.hero_content_sign, .hero_content_join {
+    padding: 12px 88px;
+}
+
 /* about */
 
 .about_content {
