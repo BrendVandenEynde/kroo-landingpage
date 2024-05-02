@@ -63,6 +63,12 @@ main {
     padding: 48px 300px 64px 300px;
 }
 
+/* section */
+
+section {
+    margin-top: 176px;
+}
+
 /* about */
 
 .about_content {
