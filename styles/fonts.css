@@ -75,6 +75,7 @@
   .button-xl, .button-l, .button-normal, .button-s, .button-xs, .button-xxs {
     font-family: var(--font-button);
     line-height: 100%;
+    margin: 0;
   }
 
   .text-reg-xl, .text-reg-l, .text-reg-normal, .text-reg-s, .text-reg-xs, .text-reg-xxs {

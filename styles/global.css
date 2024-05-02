@@ -59,3 +59,10 @@
 
 
 /* button */
+
+.copy {
+    background-color: var(--darkgray);
+    color: var(--white);
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+}
