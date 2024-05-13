@@ -147,6 +147,12 @@ section {
 
 /* about */
 
+.about_content_img {
+    width: 400px;
+    height: 529px;
+    object-fit: cover;
+}
+
 .about_content {
     display: flex;
     gap: 80px;
