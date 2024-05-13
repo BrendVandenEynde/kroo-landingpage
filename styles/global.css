@@ -188,6 +188,23 @@ section {
 .iconoir-eye-closed::before {
     font-size: 136px;
     color: var(--blurple);
+    margin-bottom: 32px;
+}
+
+.benefits_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits_wrapper_div {
+    width: 260px;
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 
 
