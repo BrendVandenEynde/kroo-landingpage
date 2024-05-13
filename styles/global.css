@@ -171,6 +171,26 @@ section {
     align-items: center;
 }
 
+.iconoir-calendar::before,
+.iconoir-search::before,
+.iconoir-tools::before,
+.iconoir-eye::before,
+.iconoir-timer::before {
+    font-size: 64px;
+    color: var(--blurple);
+}
+
+/* benefits */
+
+.iconoir-network::before,
+.iconoir-settings::before,
+.iconoir-filter::before,
+.iconoir-eye-closed::before {
+    font-size: 136px;
+    color: var(--blurple);
+}
+
+
 /* pricing */
 
 .pricing_content_wrapper {
@@ -242,11 +262,3 @@ section {
     background-color: var(--white);
 }
 
-.iconoir-calendar::before,
-.iconoir-search::before,
-.iconoir-tools::before,
-.iconoir-eye::before,
-.iconoir-timer::before {
-    font-size: 64px;
-    color: var(--blurple);
-}
