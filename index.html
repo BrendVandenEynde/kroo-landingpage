@@ -369,25 +369,27 @@
         <section id="contact">
             <div class="contact">
                 <div class="contact_content">
-                    <h2>Contact us</h2>
-                    <form action="">
-                        <div>
-                            <img src="https://placehold.co/24x24" alt="">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div>
-                            <img src="https://placehold.co/24x24" alt="">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div>
-                            <img src="https://placehold.co/24x24" alt="">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                        </div>
-                        <button type="submit">Send</button>
-                    </form>
+                    <div>
+                        <img class="contact_content_img radius-s" src="./assets/img/glasses-full.webp" alt="">
+                    </div>
+                    <div class="contact_form">
+                        <h2>Contact us</h2>
+                        <form action="mailto:hello@kroo.site" method="GET">
+                            <div>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button class="button--primary" type="submit">Send</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
