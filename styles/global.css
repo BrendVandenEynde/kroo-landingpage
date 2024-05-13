@@ -287,6 +287,46 @@ section {
     flex-direction: column;
 }
 
+/* contact */
+
+.contact_content {
+    display: flex;
+    gap: 80px;
+}
+
+.contact_content_img {
+    width: 448px;
+    height: 488px;
+    object-fit: cover;
+}
+
+.contact_form {
+    width: 100%;
+}
+
+#name, #email {
+    width: 90%;
+    border: 1px solid var(--neutral-40);
+    border-radius: 4px;
+    padding: 8px 36px;
+}
+
+#message {
+    width: 90%;
+    border: 1px solid var(--neutral-40);
+    border-radius: 4px;
+    padding: 8px 36px 8px 6px;
+    background-color: transparent;
+}
+
+#name {
+    background: url(../assets/img/user.svg) no-repeat scroll 6px 6px;
+}
+
+#email {
+    background: url(../assets/img/mail.svg) no-repeat scroll 6px 6px;
+}
+
 
 /* button */
 
