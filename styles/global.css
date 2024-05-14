@@ -297,6 +297,17 @@ section {
     color: var(--black);
 }
 
+.pricing_content_info h4 {
+    margin-bottom: 16px;
+}
+
+.pricing_content_info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid var(--black);
+}
+
 .pricing_content_tier {
     display: flex;
     flex-direction: column;
