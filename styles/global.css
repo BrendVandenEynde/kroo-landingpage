@@ -288,6 +288,10 @@ section {
 
 /* pricing */
 
+.pricing_wrapper_title {
+    text-align: center;
+}
+
 .pricing_wrapper_tiers {
     display: flex; 
     flex-direction: row; 
@@ -348,6 +352,10 @@ section {
 .pricing_wrapper_tier_enterprise {
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
+}
+
+.button--bronze, .button--silver, .button--gold, .button--enterprise {
+    padding: 12px 24px;
 }
 
 
