@@ -302,6 +302,17 @@ section {
     flex-direction: column;
 }
 
+.iconoir-peace-hand::before {
+    font-size: 24px;
+    color: var(--black);
+}
+
+.pricing_content_upgrade {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 /* contact */
 
 .contact_content {
