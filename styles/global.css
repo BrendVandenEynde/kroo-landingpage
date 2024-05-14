@@ -327,6 +327,7 @@ section {
 .pricing_wrapper_tier_info_description span {
     font-size: 64px;
     color: var(--black);
+    font-family: var(--font-header);
 }
 
 .pricing_wrapper_tier_info_description h4 {
