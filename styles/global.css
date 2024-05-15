@@ -422,6 +422,7 @@ section {
 .footer_nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer_nav_contents {
@@ -464,6 +465,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 24px;
 }
 
 .footer_nav_buttons a {
