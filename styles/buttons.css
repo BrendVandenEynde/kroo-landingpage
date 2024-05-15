@@ -36,6 +36,14 @@ a {
   transition: 0.3s;
 }
 
+.button--quaternary {
+  background-color: transparent;
+  color: var(--white);
+  outline: 2px solid var(--white);
+  outline-offset: -2px;
+  transition: 0.3s;
+}
+
 .button--disabled {
   background-color: var(--neutral-50);
 }
@@ -59,6 +67,11 @@ a {
   color: white;
 }
 
+.button--quaternary:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
 .button--primary:active {
   background-color: var(--blurple-20);
 }
@@ -69,6 +82,10 @@ a {
 
 .button--tertiary:active {
   background-color: var(--blurple-20);
+}
+
+.button--quaternary:active {
+  background-color: var(--white);
 }
 
 /* BUTTON TEXT */

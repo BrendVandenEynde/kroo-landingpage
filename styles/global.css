@@ -455,3 +455,23 @@ section {
     background-color: var(--white);
 }
 
+.iconoir-instagram::before {
+    font-size: 36px;
+    color: var(--white);
+}
+
+.footer_content_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_nav_buttons a {
+    padding: 12px 48px;
+}
+
+.footer_nav_buttons {
+    display: flex;
+    gap: 24px;
+}
+
