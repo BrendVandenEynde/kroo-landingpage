@@ -381,7 +381,7 @@ section {
     width: 90%;
     border: 1px solid var(--neutral-40);
     border-radius: 4px;
-    padding: 8px 36px;
+    padding: 9px 36px 5px 40px;
 }
 
 #message {
