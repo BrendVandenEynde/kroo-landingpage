@@ -477,3 +477,21 @@ section {
     gap: 24px;
 }
 
+
+/* media queries */
+
+@media only screen and (max-width: 1024px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        padding: 0px 24px 64px 24px;
+        background-color: red;
+    }
+}
+
