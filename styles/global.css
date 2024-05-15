@@ -57,6 +57,18 @@
     scrollbar-track-color: var(--neutral-80);
 }
 
+/* select */
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--black);
+    background: var(--blurple-10);
+}
+  
+::selection {
+    color: var(--black);
+    background: var(--blurple-10);
+}
+
 /* html*/
 html {
     scroll-behavior: smooth;
