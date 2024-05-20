@@ -542,6 +542,14 @@ section {
         gap: 40px;
     }
 
+    .about_content_wrapper {
+        justify-content: center;
+    }
+
+    .about_content_div {
+        align-items: center;
+    }
+
     /* benefits */
 
     .benefits_content_header_text {
