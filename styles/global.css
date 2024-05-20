@@ -100,7 +100,7 @@ section {
 }
 
 .kroo {
-    font-size: clamp(2rem, 4.5vw, 3em);
+    font-size: clamp(2.5rem, 3.5vw, 1em);
     /* Min 2rem, flexibel tot 4.5vw, max 3em */
     margin: 0;
 }
