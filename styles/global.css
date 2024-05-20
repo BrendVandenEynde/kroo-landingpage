@@ -593,6 +593,14 @@ section {
         gap: 40px;
     }
 
+    .about_content_wrapper {
+        justify-content: center;
+    }
+
+    .about_content_div {
+        align-items: center;
+    }
+
     /* benefits */
 
     .benefits_content_header_text {
@@ -658,6 +666,32 @@ section {
         gap: 8px;
     }
 
-}
+    /* footer */
 
-@media screen and (max-width: 480px) {}
+    .footer {
+        padding: 64px;
+    }
+
+    .footer_nav_contents {
+        display: none;
+    }
+
+    .footer_info_location, .footer_info_contact {
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer_info_contact {
+        align-items: flex-end;
+    }
+
+    .footer_nav_buttons {
+        width: 100%;
+    }
+    
+    
+
+    }
+
