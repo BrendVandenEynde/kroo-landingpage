@@ -58,6 +58,7 @@
 
     .nav_logo a img {
         width: 70%;
+        min-width: 128px;
     }
 
 
@@ -74,7 +75,13 @@
         width: 100%;
         align-items: center;
     }
+}
 
+@media only screen and (max-width: 512px) {
+    .nav_buttons {
+        width: 100%;
+    }
+    
     .nav_buttons a:first-child {
         display: none;
     }
