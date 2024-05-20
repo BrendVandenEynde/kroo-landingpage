@@ -27,8 +27,9 @@
 .about_content_tag {
     background-color: var(--blurple);
     width: fit-content;
-    padding: 8px 20px;
+    padding: 8px 16px 4px 16px;
     color: var(--white);
+    text-transform: lowercase;
 }
 
 .about_content_div {
