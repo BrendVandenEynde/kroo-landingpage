@@ -37,7 +37,6 @@
     max-width: 560px;
     height: auto;
     border-radius: 40px;
-    backdrop-filter: blur(20px);
     margin-top: -200px;
     position: relative;
     display: flex;
@@ -68,6 +67,7 @@
 }
 
 .hero_content_imgwrapper__scroll__arrow {
+    position: absolute;
     font-size: 2vw;
 }
 
@@ -80,12 +80,6 @@
     100% {
         transform: rotate(360deg);
     }
-}
-
-.hero_content_imgwrapper__scroll__arrow {
-    position: absolute;
-    font-size: 3rem;
-    z-index: 1;
 }
 
 @media only screen and (max-width: 1024px) {}
