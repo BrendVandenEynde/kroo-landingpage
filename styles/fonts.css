@@ -1,125 +1,123 @@
 :root {
-    --font-header: 'header';
-    --font-body: 'body';
-    --font-bold: 'bold';
-    --font-button: 'button';
-    --font-kroo: 'kroo';
+  --font-header: 'header';
+  --font-body: 'body';
+  --font-bold: 'bold';
+  --font-button: 'button';
+  --font-kroo: 'kroo';
+}
 
-  }
+@font-face {
+  font-family: 'header';
+  src: url('../assets/fonts/CodecPro-Bold.ttf') format('truetype');
+}
 
-  @font-face {
-    font-family: 'header';
-    src: url('../assets/fonts/CodecPro-Bold.ttf') format('truetype');
-  }
-  
-  @font-face {
-    font-family: 'body';
-    src: url('../assets/fonts/Orkney-Light.otf') format('opentype');
-  }
-  
-  @font-face {
-    font-family: 'bold';
-    src: url('../assets/fonts/Orkney-Bold.otf') format('opentype');
-  }
+@font-face {
+  font-family: 'body';
+  src: url('../assets/fonts/Orkney-Light.otf') format('opentype');
+}
 
-  @font-face {
-    font-family: 'button';
-    src: url('../assets/fonts/Orkney-Medium.otf') format('opentype');
-  }
+@font-face {
+  font-family: 'bold';
+  src: url('../assets/fonts/Orkney-Bold.otf') format('opentype');
+}
 
-  @font-face {
-    font-family: 'kroo';
-    src: url('../assets/fonts/BricolageGrotesque[opsz\,wdth\,wght].ttf') format('truetype');
-    font-weight: 800;
-  }
+@font-face {
+  font-family: 'button';
+  src: url('../assets/fonts/Orkney-Medium.otf') format('opentype');
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-header);
-    line-height: 100%;
-    font-weight: 100;
-  }
+@font-face {
+  font-family: 'kroo';
+  src: url('../assets/fonts/BricolageGrotesque[opsz\,wdth\,wght].ttf') format('truetype');
+  font-weight: 800;
+}
 
-  h1 {
-    font-size: 64px;
-    margin: 0;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-header);
+  line-height: 100%;
+  font-weight: 100;
+}
 
-  h2 {
-    font-size: 48px;
-    margin: 0;
-  }
+h1 {
+  font-size: clamp(2.5rem, 6vw, 4em); /* Min 2.5rem, flexibel tot 6vw, max 4em */
+  margin: 0;
+}
 
-  h3 {
-    font-size: 40px;
-    margin: 0;
-  }
+h2 {
+  font-size: clamp(2rem, 4.5vw, 3em); /* Min 2rem, flexibel tot 4.5vw, max 3em */
+  margin: 0;
+}
 
-  h4 {
-    font-size: 32px;
-    margin: 0;
-  }
+h3 {
+  font-size: clamp(1.75rem, 3.75vw, 2.5em); /* Min 1.75rem, flexibel tot 3.75vw, max 2.5em */
+  margin: 0;
+}
 
-  h5 {
-    font-size: 24px;
-    margin: 0;
-  }
+h4 {
+  font-size: clamp(1.5rem, 3vw, 2em); /* Min 1.5rem, flexibel tot 3vw, max 2em */
+  margin: 0;
+}
 
-  h6 {
-    font-size: 20px;
-    margin: 0;
-  }
+h5 {
+  font-size: clamp(1.25rem, 2.25vw, 1.5em); /* Min 1.25rem, flexibel tot 2.25vw, max 1.5em */
+  margin: 0;
+}
 
-  p, a, button, label, input, textarea, span {
-    font-family: var(--font-body);
-    line-height: 140%;
-  }
+h6 {
+  font-size: clamp(1.125rem, 1.875vw, 1.25em); /* Min 1.125rem, flexibel tot 1.875vw, max 1.25em */
+  margin: 0;
+}
 
-  .text-bold-xl, .text-bold-l, .text-bold-normal, .text-bold-s, .text-bold-xs, .text-bold-xxs {
-    font-family: var(--font-bold);
-    line-height: 140%;
-    margin: 0;
-  }
+p, a, button, label, input, textarea, span {
+  font-family: var(--font-body);
+  line-height: 140%;
+  font-size: clamp(0.875rem, 1vw, 1em); /* Min 0.875rem, flexibel tot 1vw, max 1em */
+}
 
-  .button-xl, .button-l, .button-normal, .button-s, .button-xs, .button-xxs {
-    font-family: var(--font-button);
-    line-height: 100%;
-    margin: 0;
-  }
+.text-bold-xl, .text-bold-l, .text-bold-normal, .text-bold-s, .text-bold-xs, .text-bold-xxs {
+  font-family: var(--font-bold);
+  line-height: 140%;
+  margin: 0;
+}
 
-  .text-reg-xl, .text-reg-l, .text-reg-normal, .text-reg-s, .text-reg-xs, .text-reg-xxs {
-    font-family: var(--font-body);
-    line-height: 140%;
-    margin: 0;
-  }
+.button-xl, .button-l, .button-normal, .button-s, .button-xs, .button-xxs {
+  font-family: var(--font-button);
+  line-height: 100%;
+  margin: 0;
+}
 
-  .text-reg-xl, .text-bold-xl, .button-xl {
-    font-size: 24px;
-  }
+.text-reg-xl, .text-reg-l, .text-reg-normal, .text-reg-s, .text-reg-xs, .text-reg-xxs {
+  font-family: var(--font-body);
+  line-height: 140%;
+  margin: 0;
+}
 
-  .text-reg-l, .text-bold-l, .button-l {
-    font-size: 20px;
-  }
+.text-reg-xl, .text-bold-xl, .button-xl {
+  font-size: clamp(1.25rem, 2.25vw, 1.5em); /* Min 1.25rem, flexibel tot 2.25vw, max 1.5em */
+}
 
-  .text-reg-normal, .text-bold-normal, .button-normal {
-    font-size: 16px;
-  }
+.text-reg-l, .text-bold-l, .button-l {
+  font-size: clamp(1.125rem, 1.875vw, 1.25em); /* Min 1.125rem, flexibel tot 1.875vw, max 1.25em */
+}
 
-  .text-reg-s, .text-bold-s, .button-s {
-    font-size: 14px;
-  }
+.text-reg-normal, .text-bold-normal, .button-normal {
+  font-size: clamp(1rem, 1.5vw, 1em); /* Min 1rem, flexibel tot 1.5vw, max 1em */
+}
 
-  .text-reg-xs, .text-bold-xs, .button-xs {
-    font-size: 12px;
-  }
+.text-reg-s, .text-bold-s, .button-s {
+  font-size: clamp(0.875rem, 1.25vw, 0.875em); /* Min 0.875rem, flexibel tot 1.25vw, max 0.875em */
+}
 
-  .text-reg-xxs, .text-bold-xxs, .button-xxs {
-    font-size: 10px;
-  }
+.text-reg-xs, .text-bold-xs, .button-xs {
+  font-size: clamp(0.75rem, 1vw, 0.75em); /* Min 0.75rem, flexibel tot 1vw, max 0.75em */
+}
 
-  .kroo {
-    font-family: var(--font-kroo);
-    line-height: 140%;
-    margin: 0;
-  }
+.text-reg-xxs, .text-bold-xxs, .button-xxs {
+  font-size: clamp(0.625rem, 0.75vw, 0.625em); /* Min 0.625rem, flexibel tot 0.75vw, max 0.625em */
+}
 
-
+.kroo {
+  font-family: var(--font-kroo);
+  line-height: 140%;
+  margin: 0;
+}

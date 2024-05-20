@@ -87,6 +87,11 @@ section {
     margin-top: 176px;
 }
 
+.kroo {
+    font-size: clamp(2rem, 4.5vw, 3em); /* Min 2rem, flexibel tot 4.5vw, max 3em */
+    margin: 0;
+}
+
 /* nav */
 
 .nav_container {
@@ -528,6 +533,13 @@ section {
 
     .nav_logo {
         justify-content: center;
+    }
+
+    /* about */
+
+    .about_content {
+        flex-direction: column;
+        gap: 40px;
     }
     
 }
