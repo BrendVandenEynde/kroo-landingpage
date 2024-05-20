@@ -43,7 +43,7 @@
   /* body */
 
   body {
-    background-color: var(--white);
+    background-image: url('../assets/img/Noise-BG.webp');
   }
 
   /* text */
