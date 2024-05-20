@@ -1,14 +1,15 @@
-/* about */
+
+
+.about_content {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
 
 .about_content_img {
     width: 400px;
     height: 529px;
     object-fit: cover;
-}
-
-.about_content {
-    display: flex;
-    gap: 80px;
 }
 
 .about_content_container {
@@ -18,10 +19,20 @@
 }
 
 .about_content_wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
     gap: 48px;
+}
+
+.about_content_div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about_content_div p {
+    margin: 0px;
+    max-width: 90%;
 }
 
 .about_content_tag {
@@ -32,13 +43,78 @@
     text-transform: lowercase;
 }
 
-.about_content_div {
-    width: 372px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+@media only screen and (max-width: 1300px) {
+    .about_content_img {
+        width: 100%;
+        
+    }
+
+    .about_content_wrapper {
+        gap: 24px;
+        grid-template-columns: repeat(auto-fit, minmax(244px, 1fr));
+    }
+
+
+    .about_content {
+        gap: 48px;
+    }
+
+    .about_content_container {
+        gap: 24px;
+    }
+
+    .about_content_div {
+        gap: 12px;
+    }
+
+    .about_content_tag {
+        padding: 4px 8px 2px 8px;
+        font-size: 14px;
+    }
 }
 
-.about_content_div p {
-    margin: 0px;
+
+@media only screen and (max-width: 1138px) {
+    .about_content_img {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1016px) {
+    .about_content_img_wrapper {
+        display: none;
+    }
+
+    .about_content_wrapper {
+        gap: 24px;
+        grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+    }
+
+    .about_content {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .about_content_wrapper {
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    .about_content_wrapper {
+        gap: 24px;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+        text-align: center;
+    }
+
+    .about_content_div {
+        align-items: center;
+    }
+
+    .about_content_header {
+        text-align: center;
+    }
+
 }
