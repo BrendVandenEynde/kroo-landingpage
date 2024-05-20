@@ -29,26 +29,33 @@
 .hero_content_sign,
 .hero_content_join {
     padding: 12px 88px;
+    white-space: nowrap;
 }
 
 .hero_content_imgwrapper {
     width: 100%;
-    height: 100%;
+    max-width: 560px;
+    height: auto;
     border-radius: 40px;
     backdrop-filter: blur(20px);
     margin-top: -200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero_content_img {
     width: 100%;
+    border-radius: 40px;
 }
 
 .hero_content_imgwrapper__scroll {
     position: absolute;
-    width: 144px;
-    height: 144px;
-    bottom: 64px;
-    left: -48px;
+    width: 25%;
+    height: auto;
+    bottom: 10%;
+    left: -8%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +65,10 @@
     width: 100%;
     height: 100%;
     animation: spin 10s linear infinite;
+}
+
+.hero_content_imgwrapper__scroll__arrow {
+    font-size: 2vw;
 }
 
 
@@ -77,3 +88,4 @@
     z-index: 1;
 }
 
+@media only screen and (max-width: 1024px) {}
