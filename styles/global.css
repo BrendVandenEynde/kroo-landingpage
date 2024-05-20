@@ -259,6 +259,13 @@ section {
     align-items: center;
 }
 
+.how_content_2 img{
+    width: 374px;
+    height: 374px;
+    object-fit: cover;
+
+}
+
 .iconoir-calendar::before,
 .iconoir-search::before,
 .iconoir-tools::before,
