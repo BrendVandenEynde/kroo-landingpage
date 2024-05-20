@@ -1,0 +1,43 @@
+/* about */
+
+.about_content_img {
+    width: 400px;
+    height: 529px;
+    object-fit: cover;
+}
+
+.about_content {
+    display: flex;
+    gap: 80px;
+}
+
+.about_content_container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about_content_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.about_content_tag {
+    background-color: var(--blurple);
+    width: fit-content;
+    padding: 8px 20px;
+    color: var(--white);
+}
+
+.about_content_div {
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about_content_div p {
+    margin: 0px;
+}
