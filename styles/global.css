@@ -573,7 +573,38 @@ section {
 
     /* pricing */
     
-}
+    .pricing_wrapper_tier_bronze, .pricing_wrapper_tier_enterprise {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .pricing_wrapper_tier {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: fit-content;
+        padding: 40px;
+        gap: 40px;
+        border-radius: 8px;
+    }
+
+    .pricing_wrapper_tiers {
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
+    
+    .pricing_wrapper_tier_info_description span {
+        font-size: 48px;
+    }
+
+    .pricing_wrapper_tier_info_description h4 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
 
 @media screen and (max-width: 480px) { 
     
