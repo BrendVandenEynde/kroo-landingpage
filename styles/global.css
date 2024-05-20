@@ -119,6 +119,11 @@ section {
     justify-content: center;
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
 .nav_buttons {
     display: flex;
     gap: 24px;
@@ -502,13 +507,32 @@ section {
 }
 
 @media only screen and (max-width: 768px) {
+
+    /* main */
+
+    main {
+        padding: 0px 64px 64px 64px;
+    }
+
+    /* navbar */
+
+    .nav_links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav_buttons {
+        display: none;
+    }
+
+    .nav_logo {
+        justify-content: center;
+    }
     
 }
 
-@media only screen and (max-width: 480px) {
-    body {
-        padding: 0px 24px 64px 24px;
-        background-color: red;
-    }
+@media screen and (max-width: 480px) { 
+    /* navbar */
 }
 
