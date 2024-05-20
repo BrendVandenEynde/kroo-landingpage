@@ -541,6 +541,37 @@ section {
         flex-direction: column;
         gap: 40px;
     }
+
+    /* benefits */
+
+    .benefits_content_header_text {
+        text-align: center;
+    }
+
+    .benefits_wrapper {
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    .benefits_wrapper_div {
+        height: 270px;
+    }
+
+    .benefits_content_header_img {
+        display: none;
+    }
+
+    .iconoir-network::before,
+    .iconoir-settings::before,
+    .iconoir-filter::before,
+    .iconoir-eye-closed::before {
+    font-size: 64px;
+    margin-bottom: 24px;
+    }
+    
+
+    /* pricing */
     
 }
 
