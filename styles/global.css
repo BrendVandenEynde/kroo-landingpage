@@ -412,6 +412,11 @@ section {
     background: url(../assets/img/mail.svg) no-repeat scroll 6px 6px;
 }
 
+.send_button {
+    padding: 8px 48px; 
+    border: none;
+}
+
 
 /* button */
 
