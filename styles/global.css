@@ -167,4 +167,8 @@ section {
     #mobiusimg_2 {
         top: 720%;
     }
+
+    .main-container {
+        padding: 0 24px;
+    }
 }

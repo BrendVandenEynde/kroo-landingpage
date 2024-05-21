@@ -44,6 +44,7 @@
 
   body {
     background-image: url('../assets/img/Noise-BG.webp');
+    color: var(--black);
   }
 
   /* text */
