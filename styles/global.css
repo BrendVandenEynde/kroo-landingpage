@@ -527,6 +527,7 @@ section {
 
 #mobiusimg_1 {
     top: 70%;
+    display: none !important;
 }
 
 #mobiusimg_2 {
@@ -1537,6 +1538,7 @@ section {
     width: 468px;
     justify-content: flex-end;
     padding-right: 48px;
+    white-space: nowrap;
 }
 
 /* media queries */
