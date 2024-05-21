@@ -1577,7 +1577,7 @@ section {
     }
 
     .nav_container {
-        backdrop-filter: blur(45px);
+        backdrop-filter: blur(100px);
     }
 }
 
