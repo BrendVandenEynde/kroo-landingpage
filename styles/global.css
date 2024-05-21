@@ -112,3 +112,58 @@ section {
     padding: 8px 0px 8px 0px;
     text-align: center;
 }
+
+.mobiusImg {
+    mix-blend-mode: color-burn;
+    position: absolute;
+    z-index: -5;
+}
+
+#mobiusimg_1 {
+    top: 70%;
+}
+
+#mobiusimg_2 {
+    top: 480%;
+}
+
+#mobiusimg_3 {
+    right: 0%;
+    top: 250%;
+}
+
+@media only screen and (max-width: 1072px) {
+    #mobiusimg_2 {
+        top: 520%;
+    }
+}
+
+@media only screen and (max-width: 858px) {
+    #mobiusimg_2 {
+        top: 540%;
+    }
+}
+
+@media only screen and (max-width: 722px) {
+    #mobiusimg_2 {
+        top: 520%;
+    }
+}
+
+@media only screen and (max-width: 603px) {
+    #mobiusimg_2 {
+        top: 560%;
+    }
+}
+
+@media only screen and (max-width: 554px) {
+    #mobiusimg_2 {
+        top: 640%;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    #mobiusimg_2 {
+        top: 720%;
+    }
+}
