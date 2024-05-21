@@ -138,7 +138,7 @@
     .pricing_wrapper_tier_gold {
         border-bottom-left-radius: 24px;
     }
-    
+
     .pricing_wrapper_tier_enterprise {
         border-top-right-radius: 0px;
         border-bottom-right-radius: 24px;
@@ -157,20 +157,20 @@
     .pricing_wrapper_tier_info_description {
         gap: 8px
     }
-    
+
     .pricing_wrapper_tier_info_description_euro {
         font-size: 20px;
         width: 12px;
     }
-    
+
     .pricing_wrapper_tier_info_description__month {
         font-size: 16px;
     }
-    
+
     .pricing_wrapper_tier_info_description_price {
         font-size: 48px;
     }
-    
+
     #enterprisePrice {
         font-size: 20px;
         margin-bottom: 12px;
@@ -178,26 +178,21 @@
 }
 
 @media only screen and (max-width: 525px) {
-    .pricing_wrapper_tier {
-        width: 100%;
-        height: 100%;
-    }
 
-    .pricing_wrapper_tier_bronze {
-        border-top-left-radius: 24px;
-        border-top-right-radius: 24px;
-    }
 
-    .pricing_wrapper_tier_silver {
-        border-top-right-radius: 0px;
-    }
-
-    .pricing_wrapper_tier_gold {
-        border-bottom-left-radius: 0px;
-    }
-    
+    .pricing_wrapper_tier_bronze,
+    .pricing_wrapper_tier_silver,
+    .pricing_wrapper_tier_gold,
     .pricing_wrapper_tier_enterprise {
-        border-bottom-left-radius: 24px;
-        border-bottom-right-radius: 24px;
+        border-radius: 12px;
+    }
+
+    .pricing_wrapper_tier {
+        height: 100%;
+        width: 100%;
+    }
+
+    .pricing_wrapper_tiers {
+        gap: 24px;
     }
 }
