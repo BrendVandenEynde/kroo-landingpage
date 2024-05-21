@@ -523,11 +523,11 @@ section {
     mix-blend-mode: color-burn;
     position: absolute;
     z-index: -5;
+    width: 90%;
 }
 
 #mobiusimg_1 {
     top: 70%;
-    width: 90%;
 }
 
 #mobiusimg_2 {
