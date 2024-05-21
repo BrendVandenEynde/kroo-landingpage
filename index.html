@@ -400,20 +400,24 @@
                     </div>
                     <div class="contact_form">
                         <h2>Contact us</h2>
-                        <form action="mailto:hello@kroo.site" method="GET">
-                            <div>
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name" placeholder="Aa" required>
+                        <form class="contact--form" action="mailto:hello@kroo.site" method="GET">
+                            <div class="contact--form--fields">
+                                <div class="contact--form-div">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Aa" required>
+                                </div>
+                                <div class="contact--form-div">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="Email" required>
+                                </div>
+                                <div class="contact--form-div">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" placeholder="Aa" required></textarea>
+                                </div>
                             </div>
-                            <div>
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="Email" required>
+                            <div class="contact--form--button">
+                                <button class="button--primary radius-xs send_button" type="submit">Send</button>
                             </div>
-                            <div>
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" placeholder="Aa" required></textarea>
-                            </div>
-                            <button class="button--primary radius-xs send_button" type="submit">Send</button>
                         </form>
                     </div>
                 </div>
