@@ -1575,6 +1575,10 @@ section {
         width: 100%;
         align-items: center;
     }
+
+    .nav_container {
+        backdrop-filter: blur(45px);
+    }
 }
 
 @media only screen and (max-width: 512px) {
