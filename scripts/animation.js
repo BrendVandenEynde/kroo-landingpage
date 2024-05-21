@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    if (window.innerWidth > 768) {
+    const isMobile = window.innerWidth <= 768;
+    if (!isMobile) { 
         const observerOptions = {
             threshold: 0.1
         };
