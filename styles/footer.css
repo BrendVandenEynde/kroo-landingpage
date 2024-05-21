@@ -4,7 +4,12 @@
 .footer {
     background-color: var(--black);
     color: var(--white);
-    padding: 48px 300px 64px 300px;
+}
+
+.footer_content {
+    padding: 48px 20px 64px 20px;
+    max-width: 1320px;
+    margin: 0 auto;
 }
 
 .footer_nav {
@@ -64,4 +69,11 @@
 .footer_nav_buttons {
     display: flex;
     gap: 24px;
+}
+
+@media screen and (max-width: 900px) {
+    .footer_nav_contents {
+        display: none;
+    }
+    
 }
