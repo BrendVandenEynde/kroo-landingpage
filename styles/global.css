@@ -527,7 +527,7 @@ section {
 
 #mobiusimg_1 {
     top: 70%;
-    display: none !important;
+    overflow: hidden !important;
 }
 
 #mobiusimg_2 {
