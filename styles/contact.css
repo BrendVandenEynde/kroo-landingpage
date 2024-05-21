@@ -70,4 +70,6 @@
 
 .contact--form-div {
     width: 790px;
+    display: flex;
+    flex-direction: column;
 }
