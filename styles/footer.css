@@ -15,7 +15,7 @@
 
 .footer_nav_contents {
     display: flex;
-    gap: 64px;
+    gap: 48px;
 }
 
 .footer_nav_contents a {
