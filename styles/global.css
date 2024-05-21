@@ -476,11 +476,12 @@ a {
 /* html*/
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden !important;
 }
 
 body {
     margin: 0;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .main-container {
@@ -494,6 +495,7 @@ body {
 
 main {
     padding: 0px 300px 64px 300px;
+    overflow-x: hidden !important;
 }
 
 /* section */
@@ -568,11 +570,23 @@ section {
 
 @media only screen and (max-width: 525px) {
     #mobiusimg_2 {
-        top: 720%;
+        display: none;
     }
 
     .main-container {
         padding: 0 24px;
+    }
+
+    section {
+        margin-top: 96px;
+    }
+
+    .hero_content_imgwrapper img {
+        margin-top: 80px;
+    }
+
+    .footer {
+        margin-top: -160px;
     }
 }
 
