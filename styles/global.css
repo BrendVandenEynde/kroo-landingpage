@@ -550,7 +550,7 @@ section {
 
 @media only screen and (max-width: 858px) {
     #mobiusimg_2 {
-        top: 540%;
+        display: none;
     }
 }
 
