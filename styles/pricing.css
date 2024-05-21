@@ -1,5 +1,3 @@
-/* pricing */
-
 .pricing_wrapper_title {
     text-align: center;
 }
@@ -16,7 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 752px;
+    height: 600px;
     width: 100%;
     padding: 40px;
     outline: 2px solid var(--black);
@@ -36,14 +34,43 @@
     gap: 16px
 }
 
-.pricing_wrapper_tier_info_description span {
+.pricing_wrapper_tier_info_description_euro {
+    font-size: 24px;
+    color: var(--black);
+    font-family: var(--font-body);
+    font-weight: bold;
+    height: 72%;
+    display: flex;
+    align-items: top;
+    width: 14px;
+}
+
+.pricing_wrapper_tier_info_description__month {
+    font-family: var(--font-body);
+    font-weight: bold;
+}
+
+.pricing_wrapper_tier_info_description_price {
     font-size: 64px;
     color: var(--black);
     font-family: var(--font-header);
 }
 
+#enterprisePrice {
+    font-size: 28px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    color: var(--black);
+    font-family: var(--font-body);
+    margin-bottom: 12px;
+
+}
+
 .pricing_wrapper_tier_info_description h4 {
-    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .pricing_wrapper_tier_info_upgrades_upgrade {
