@@ -22,6 +22,7 @@
     border: 1px solid var(--neutral-40);
     border-radius: 4px;
     padding: 9px 36px 5px 40px;
+    background-color: var(--white) !important;
 }
 
 #message {
@@ -29,7 +30,7 @@
     border: 1px solid var(--neutral-40);
     border-radius: 4px;
     padding: 8px 36px 8px 6px;
-    background-color: transparent;
+    background-color: var(--white);
 }
 
 #name {
