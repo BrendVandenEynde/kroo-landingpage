@@ -589,6 +589,10 @@ section {
     .footer {
         margin-top: -160px;
     }
+
+    .footer_logo img {
+        width: 200px;
+    }
 }
 
 
