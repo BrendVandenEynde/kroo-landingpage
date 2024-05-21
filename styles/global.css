@@ -524,6 +524,7 @@ section {
     position: absolute;
     z-index: -5;
     width: 90%;
+    max-width: 800px;
 }
 
 #mobiusimg_1 {
@@ -532,6 +533,8 @@ section {
 
 #mobiusimg_2 {
     top: 480%;
+    max-width: 600px;
+
 }
 
 #mobiusimg_3 {
@@ -550,6 +553,13 @@ section {
         top: 540%;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    #mobiusimg_2 {
+        top: 520%;
+    }
+}
+
 
 @media only screen and (max-width: 722px) {
     #mobiusimg_2 {
@@ -571,7 +581,7 @@ section {
 
 @media only screen and (max-width: 525px) {
     #mobiusimg_2 {
-        display: none;
+        top: 660%;
     }
 
     .main-container {
@@ -595,6 +605,17 @@ section {
     }
 }
 
+@media only screen and (max-width: 387px) {
+    #mobiusimg_2 {
+        top: 680%;
+    }
+}
+
+@media only screen and (max-width: 387px) {
+    #mobiusimg_2 {
+        top: 700%;
+    }
+}
 
 
 .about_content {
